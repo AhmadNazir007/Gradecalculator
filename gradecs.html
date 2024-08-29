@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>
+        Grade CS System 
+    </title>
+    <link rel="stylesheet" href="gradecs.css">
+</head>
+<body>
+
+  <div class="container">
+    <form class="GCS">
+       <div>
+        <h2> Grade Cs System </h2>
+       </div>
+        <div class="book1">
+            <label> Math : </label>
+            <input type="number" id="bookone" name="" placeholder="Numbers">
+        </div>
+        
+        <div class="book2">
+            <label> Science : </label>
+            <input type="number" id="booktwo" name="" placeholder="Numbers">
+        </div>
+        
+        <div class="book3">
+            <label> English : </label>
+            <input type="number" id="bookthree"  name="" placeholder="Numbers">
+        </div>
+        
+        <div class="book4">
+            <label> Urdu : </label>
+            <input type="number" id="bookfour" name="" placeholder="Numbers">
+        </div>
+        
+        <div class="book5">
+            <label> Pak Studies : </label>
+            <input type="number" id="bookfive"  name="" placeholder="Numbers">
+        </div>
+
+        <div class="btn">
+             <button onclick="return calculate()"> Calulate </button>
+        </div>
+
+    </form>
+
+    <div class="tab">
+        <table>
+            <tr>
+                <th>Total marks </th>
+                <th>500 </th>
+            </tr>
+            <tr>
+                <td>Obtained marks </td>
+                <td id="obtained"> </td>
+            </tr>
+            <tr>
+                <td>Percentage(%) </td>
+                <td id="per"> </td>
+            </tr>
+            <tr>
+                <td>Grade </td>
+                <td id="grade"></td>
+            </tr>
+            <tr>
+                <td>Remarks </td>
+                <td id="remarks">: </td>
+            </tr>
+        </table>
+    </div>
+
+  </div>
+
+<script type="text/javascript" src="gradecs.js"></script>
+
+</body>
+</html>
